@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    background-color: #660066;
+}
+.fuente1 {
+  font-family: 'Oswald', sans-serif;
+}
+.fuente2 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 40px;
+}
+.hero {
+  background-image: url('../img/bg_hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  padding-top: 558px;
+}
+.titulo-header {
+  font-size: 72px;
+}
+.linea {
+  width: 124px;
+  background: black;
+
+}
