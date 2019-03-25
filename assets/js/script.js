@@ -3,7 +3,7 @@ $(function(){
   $('.carousel').carousel({
   interval: 2000
   });
-  
+    
   $("a").click(function(event){
     if (this.hash !== "") {
       event.preventDefault();

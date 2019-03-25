@@ -10,7 +10,9 @@ body {
 }
 .fuente2 {
   font-family: 'Homemade Apple', cursive;
-  font-size: 40px;
+}
+.marca {
+    font-size: 40px;
 }
 .hero {
   background-image: url('../img/bg_hero.png');
@@ -20,9 +22,7 @@ body {
 .header {
   padding-top: 558px;
 }
-.titulo-header {
-  font-size: 72px;
-}
+
 .linea {
   width: 124px;
   background: black;
@@ -31,7 +31,7 @@ body {
   width: 124px;
   background: white;
 }
-i {
+.experiencia i {
   color: #660066;
 }
 .carousel-indicators li {
@@ -45,4 +45,10 @@ i {
 }
 .trabajos {
   background-color: #660066;
+}
+footer {
+  background-color: #660066;
+}
+.redes-sociales {
+  margin-right: 620px;
 }
