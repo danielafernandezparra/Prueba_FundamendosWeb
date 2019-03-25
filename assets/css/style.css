@@ -26,5 +26,23 @@ body {
 .linea {
   width: 124px;
   background: black;
-
+}
+.linea2 {
+  width: 124px;
+  background: white;
+}
+i {
+  color: #660066;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.carousel-indicators {
+  top: 290px;
+}
+.trabajos {
+  background-color: #660066;
 }
