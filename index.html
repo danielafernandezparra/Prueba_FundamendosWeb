@@ -17,16 +17,18 @@
 
 <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-dark py-0 px-5">
-      <a class="navbar-brand fuente2 marca" href="#">Daniela</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link active text-white" href="#">Sobre mi <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link text-white" href="#">Experiencia</a>
-          <a class="nav-item nav-link text-white" href="#">Trabajos</a>
-          <a class="nav-item nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+      <div class="container">
+        <a class="navbar-brand fuente2 marca" href="#">Daniela</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active text-white" href="#about">Sobre mi <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link text-white" href="#experience">Experiencia</a>
+            <a class="nav-item nav-link text-white" href="#works">Trabajos</a>
+            <a class="nav-item nav-link text-white" href="#contact" tabindex="-1" aria-disabled="true">Contacto</a>
+          </div>
         </div>
       </div>
     </nav>
@@ -34,13 +36,13 @@
 <!--HEADER-->
     <header class="hero">
       <div class="container pb-5 header">
-        <h1 class="text-center text-white pb-5 font-weight-lighter fuente1 display-2">YO SOY</h1>
+        <h1 class="text-center text-white pb-5 font-weight-lighter fuente1 display-2">PORTAFOLIO</h1>
         <h1 class="text-center text-white"><span class="fuente2 border-top display-2">Daniela</span></h1>
       </div>
     </header>
 
 <!--SOBRE MI-->
-    <section class="sobre-mi d-none d-md-none d-lg-block">
+    <section id="about" class="sobre-mi d-none d-md-none d-lg-block">
       <div class="container p-5">
         <h3 class="text-center pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h3>
         <hr class="linea">
@@ -56,7 +58,7 @@
     </section>
 
 <!--EXPERIENCIA-->
-    <section class="experiencia pb-5">
+    <section id="experience" class="experiencia pb-5">
       <div class="container">
         <h1 class="fuente1 text-center display-3">MI EXPERIENCIA</h1>
         <hr class="linea">
@@ -72,30 +74,26 @@
 
             <div class="carousel-item active text-center">
               <div class="row">
-                <div class="col-6">
-                  <i class="fas fa-plane fa-7x p-5" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Viajes360"></i>
-                  <h5 class="font-weight-bold">VIAJES</h5>
-                  <h5 class="fuente1">2014 - 2019</h5>
+                <div class="col-md-6">
+                  <i class="fab fa-bootstrap fa-7x p-5" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Bootstrap"></i>
+                  <h5 class="font-weight-bold">BOOTSTRAP</h5>
                 </div>
-                <div class="col-6">
-                  <i class="fas fa-skiing fa-7x p-5" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Valle Nevado"></i>
-                  <h5 class="font-weight-bold">DEPORTE SKI</h5>
-                  <h5 class="fuente1">2010 - 2014</h5>
+                <div class="col-md-6">
+                  <i class="fab fa-js-square fa-7x p-5" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Javascript"></i>
+                  <h5 class="font-weight-bold">JAVASCRIPT</h5>
                 </div>
               </div>
             </div>
 
             <div class="carousel-item text-center">
               <div class="row">
-                <div class="col-6">
-                  <i class="fas fa-palette fa-7x p-5" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Lovre"></i>
-                  <h5 class="font-weight-bold">PINTORA</h5>
-                  <h5 class="fuente1">2008 - 2010</h5>
+                <div class="col-md-6">
+                  <i class="fab fa-css3-alt fa-7x p-5" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="CSS3"></i>
+                  <h5 class="font-weight-bold">CSS3</h5>
                 </div>
-                <div class="col-6">
-                  <i class="fas fa-bed fa-7x p-5" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Amo mi cama"></i>
-                  <h5 class="font-weight-bold">DORMIR</h5>
-                  <h5 class="fuente1">1991 - 2008</h5>
+                <div class="col-md-6">
+                  <i class="fab fa-html5 fa-7x p-5" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="HTML5"></i>
+                  <h5 class="font-weight-bold">HTML5</h5>
                 </div>
               </div>
             </div>
@@ -107,7 +105,7 @@
     </section>
 
 <!--MIS ULTIMOS TRABAJOS-->
-    <section class="trabajos my-5 py-5">
+    <section id="works" class="trabajos my-5 py-5">
       <div class="container">
         <h1 class="fuente1 text-center text-white display-3">MIS ÚLTIMOS TRABAJOS</h1>
         <hr class="linea2">
@@ -180,7 +178,7 @@
     </section>
 
 <!--CONTACTO-->
-  <section>
+  <section id="contact">
     <div class="container py-5">
       <h1 class="fuente1 text-center display-3">CONTACTO</h1>
       <hr class="linea">
@@ -190,18 +188,24 @@
 
 <!--FOOTER-->
   <footer>
-    <div class="container p-5 mt-5 mx-5 text-white">
-    <span class="fuente2 marca redes-sociales">Daniela</span>
-      <a class="text-white" target="_blank" href="https://github.com/danielafernandezparra/Prueba_FundamendosWeb"><i class="fab fa-github-square fa-3x p-2"></i></a>
-      <a class="text-white" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin fa-3x p-2"></i></a>
-      <a class="text-white" target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-square fa-3x p-2"></i></a>
-      <a class="text-white" target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram fa-3x p-2"></i></a>
+    <div class="container p-5 mt-5 text-white text-center">
+      <div class="row">
+        <div class="col-md-6">
+          <span class="fuente2 marca">Daniela</span>
+        </div>
+        <div class="col-md-6">
+          <a class="text-white" target="_blank" href="https://github.com/danielafernandezparra/Prueba_FundamendosWeb"><i class="fab fa-github-square fa-3x p-2"></i></a>
+          <a class="text-white" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin fa-3x p-2"></i></a>
+          <a class="text-white" target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-square fa-3x p-2"></i></a>
+          <a class="text-white" target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram fa-3x p-2"></i></a>
+        </div>
+      </div>
     </div>
   </footer>
 
 
 <!--SCRIPT-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
