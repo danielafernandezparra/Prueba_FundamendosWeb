@@ -4,7 +4,7 @@ $(function(){
   interval: 2000
   });
 
-  $('[data-toggle="popover"]').popover();
+  $('[data-toggle="tooltip"]').tooltip()
 
   $("a").click(function(event){
     if (this.hash !== "") {
